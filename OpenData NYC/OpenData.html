@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_91529670d681475a984e3849e4b40bc2 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_91529670d681475a984e3849e4b40bc2" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_91529670d681475a984e3849e4b40bc2 = L.map(
+        'map_91529670d681475a984e3849e4b40bc2', {
+        center: [40.745706, -73.929565],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_f562134f9e944f8c80fe0612a72a536a = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_91529670d681475a984e3849e4b40bc2);
+    
+        var marker_9d6ec499676541a485e719845f3fc834 = L.marker(
+            [40.717634, -74.002233],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_fa40a229a7864e52b735659ab6624786 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9d6ec499676541a485e719845f3fc834.setIcon(icon_fa40a229a7864e52b735659ab6624786);
+            
+    
+            var popup_52d21a71b8fa4fd985c62da4e3f7aeb3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_166b63e8b28e401fa60ce8ea75c25a13 = $(`<div id="html_166b63e8b28e401fa60ce8ea75c25a13" style="width: 100.0%; height: 100.0%;"><strong> GENERAL HARDWARE MANUFACTURING </strong></div>`)[0];
+                popup_52d21a71b8fa4fd985c62da4e3f7aeb3.setContent(html_166b63e8b28e401fa60ce8ea75c25a13);
+            
+
+            marker_9d6ec499676541a485e719845f3fc834.bindPopup(popup_52d21a71b8fa4fd985c62da4e3f7aeb3)
+            ;
+
+            
+        
+    
+        marker_9d6ec499676541a485e719845f3fc834.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_b0ad2607d6d448fb8ea3d8636bddc590 = L.marker(
+            [40.665231, -73.998209],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_e131afdbfc5d49ea91a385e867435cd5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b0ad2607d6d448fb8ea3d8636bddc590.setIcon(icon_e131afdbfc5d49ea91a385e867435cd5);
+            
+    
+            var popup_8397bde13236467b937555285a810407 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3f46f4e0d3484c959546e41f7f395a74 = $(`<div id="html_3f46f4e0d3484c959546e41f7f395a74" style="width: 100.0%; height: 100.0%;"><strong>  FEDERAL EXPRESS </strong></div>`)[0];
+                popup_8397bde13236467b937555285a810407.setContent(html_3f46f4e0d3484c959546e41f7f395a74);
+            
+
+            marker_b0ad2607d6d448fb8ea3d8636bddc590.bindPopup(popup_8397bde13236467b937555285a810407)
+            ;
+
+            
+        
+    
+        marker_b0ad2607d6d448fb8ea3d8636bddc590.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_bf05aa8dd158464fbb30475c5848deb2 = L.marker(
+            [40.722201, -74.008204],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_e1a3a78be7ab46248365399115e47511 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bf05aa8dd158464fbb30475c5848deb2.setIcon(icon_e1a3a78be7ab46248365399115e47511);
+            
+    
+            var popup_9c4e4f92701e40ec9350cf75ad1b6c46 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b406d31aaad54b95a10e8fc123cddcaa = $(`<div id="html_b406d31aaad54b95a10e8fc123cddcaa" style="width: 100.0%; height: 100.0%;"><strong> PRINT 2 PRINT LLC </strong></div>`)[0];
+                popup_9c4e4f92701e40ec9350cf75ad1b6c46.setContent(html_b406d31aaad54b95a10e8fc123cddcaa);
+            
+
+            marker_bf05aa8dd158464fbb30475c5848deb2.bindPopup(popup_9c4e4f92701e40ec9350cf75ad1b6c46)
+            ;
+
+            
+        
+    
+        marker_bf05aa8dd158464fbb30475c5848deb2.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_7d8290fcdaec4ecdb602ee970ab3492f = L.marker(
+            [40.752098, -74.002999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_581f667e824944c7b85cb2830f8a1e20 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7d8290fcdaec4ecdb602ee970ab3492f.setIcon(icon_581f667e824944c7b85cb2830f8a1e20);
+            
+    
+            var popup_8779a6b4980943c7b1d3ba9c8b1c283d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8b9880d813044024b19adb6bb4b50e4f = $(`<div id="html_8b9880d813044024b19adb6bb4b50e4f" style="width: 100.0%; height: 100.0%;"><strong>  GOTHAM SEAFOOD CORP.  </strong></div>`)[0];
+                popup_8779a6b4980943c7b1d3ba9c8b1c283d.setContent(html_8b9880d813044024b19adb6bb4b50e4f);
+            
+
+            marker_7d8290fcdaec4ecdb602ee970ab3492f.bindPopup(popup_8779a6b4980943c7b1d3ba9c8b1c283d)
+            ;
+
+            
+        
+    
+        marker_7d8290fcdaec4ecdb602ee970ab3492f.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_cb5ac7f1a7d043398cfb21e598e34e75 = L.marker(
+            [40.735203, -73.987898],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_90aad6453b49488489d4ce70b780f48c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cb5ac7f1a7d043398cfb21e598e34e75.setIcon(icon_90aad6453b49488489d4ce70b780f48c);
+            
+    
+            var popup_8036236e4b19413ab5e6396ef288a891 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3eb78cc3c8374bd0a7f7a076078b19a4 = $(`<div id="html_3eb78cc3c8374bd0a7f7a076078b19a4" style="width: 100.0%; height: 100.0%;"><strong>  ELENIS NYC, INC </strong></div>`)[0];
+                popup_8036236e4b19413ab5e6396ef288a891.setContent(html_3eb78cc3c8374bd0a7f7a076078b19a4);
+            
+
+            marker_cb5ac7f1a7d043398cfb21e598e34e75.bindPopup(popup_8036236e4b19413ab5e6396ef288a891)
+            ;
+
+            
+        
+    
+        marker_cb5ac7f1a7d043398cfb21e598e34e75.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_81da4917982745de80e88fc640b1aa6f = L.marker(
+            [40.760184, -73.975548],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_470deb3d30a34432aab13cd4d447a288 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_81da4917982745de80e88fc640b1aa6f.setIcon(icon_470deb3d30a34432aab13cd4d447a288);
+            
+    
+            var popup_14667d2f881042e6ac87c968aafdab12 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c994743e0dcc47cbb9976c27e986c1a2 = $(`<div id="html_c994743e0dcc47cbb9976c27e986c1a2" style="width: 100.0%; height: 100.0%;"><strong>  Rolex Watch USA, Inc. </strong></div>`)[0];
+                popup_14667d2f881042e6ac87c968aafdab12.setContent(html_c994743e0dcc47cbb9976c27e986c1a2);
+            
+
+            marker_81da4917982745de80e88fc640b1aa6f.bindPopup(popup_14667d2f881042e6ac87c968aafdab12)
+            ;
+
+            
+        
+    
+        marker_81da4917982745de80e88fc640b1aa6f.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_234cf58df1fe4b0c9d24a4d85b4b985d = L.marker(
+            [40.660096, -73.997405],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_99a8435e87f844a0907a154eb18e5d3a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_234cf58df1fe4b0c9d24a4d85b4b985d.setIcon(icon_99a8435e87f844a0907a154eb18e5d3a);
+            
+    
+            var popup_d481b749c9754ffdae8e05685c6d3b3f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6c61979bf1be45ce9ac491e6314d52d4 = $(`<div id="html_6c61979bf1be45ce9ac491e6314d52d4" style="width: 100.0%; height: 100.0%;"><strong>  ALADDIN BAKERS, INC/Bread Head, LLC. </strong></div>`)[0];
+                popup_d481b749c9754ffdae8e05685c6d3b3f.setContent(html_6c61979bf1be45ce9ac491e6314d52d4);
+            
+
+            marker_234cf58df1fe4b0c9d24a4d85b4b985d.bindPopup(popup_d481b749c9754ffdae8e05685c6d3b3f)
+            ;
+
+            
+        
+    
+        marker_234cf58df1fe4b0c9d24a4d85b4b985d.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_4e919efc9add4c00bf2f35d5f8ed4c81 = L.marker(
+            [40.754384, -73.992742],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_f60215f44a9d4fffb07b9044849699b6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4e919efc9add4c00bf2f35d5f8ed4c81.setIcon(icon_f60215f44a9d4fffb07b9044849699b6);
+            
+    
+            var popup_b70f988335354e6eaa82be617a09f14d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3fd2c19adb9f46fdad32bd1c9b2a887b = $(`<div id="html_3fd2c19adb9f46fdad32bd1c9b2a887b" style="width: 100.0%; height: 100.0%;"><strong>  New Concepts of NY LLC 	  </strong></div>`)[0];
+                popup_b70f988335354e6eaa82be617a09f14d.setContent(html_3fd2c19adb9f46fdad32bd1c9b2a887b);
+            
+
+            marker_4e919efc9add4c00bf2f35d5f8ed4c81.bindPopup(popup_b70f988335354e6eaa82be617a09f14d)
+            ;
+
+            
+        
+    
+        marker_4e919efc9add4c00bf2f35d5f8ed4c81.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_407479f5e0ea42709b30377bad922fa8 = L.marker(
+            [40.812964, -73.953759],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_d3b8fc3ab34d47a89831be60d2cb50f6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_407479f5e0ea42709b30377bad922fa8.setIcon(icon_d3b8fc3ab34d47a89831be60d2cb50f6);
+            
+    
+            var popup_d7ec3fb6565948e09ccbac1cf8869475 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_745b9c12e66a4c44bd3b24860a26576c = $(`<div id="html_745b9c12e66a4c44bd3b24860a26576c" style="width: 100.0%; height: 100.0%;"><strong> Aids Vaccine Advocacy Coalition </strong></div>`)[0];
+                popup_d7ec3fb6565948e09ccbac1cf8869475.setContent(html_745b9c12e66a4c44bd3b24860a26576c);
+            
+
+            marker_407479f5e0ea42709b30377bad922fa8.bindPopup(popup_d7ec3fb6565948e09ccbac1cf8869475)
+            ;
+
+            
+        
+    
+        marker_407479f5e0ea42709b30377bad922fa8.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_7f517bc3ceef4c07abc428ea480afc9b = L.marker(
+            [40.812964, -73.953759],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_85ecfcd2a88b43d6ae840bf041544b78 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7f517bc3ceef4c07abc428ea480afc9b.setIcon(icon_85ecfcd2a88b43d6ae840bf041544b78);
+            
+    
+            var popup_dd10879803684a64ac34e37be210e5aa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4d5735e0bac4415eae24d8a3f500db65 = $(`<div id="html_4d5735e0bac4415eae24d8a3f500db65" style="width: 100.0%; height: 100.0%;"><strong>  Neighborhood Eigth Avenue LLC </strong></div>`)[0];
+                popup_dd10879803684a64ac34e37be210e5aa.setContent(html_4d5735e0bac4415eae24d8a3f500db65);
+            
+
+            marker_7f517bc3ceef4c07abc428ea480afc9b.bindPopup(popup_dd10879803684a64ac34e37be210e5aa)
+            ;
+
+            
+        
+    
+        marker_7f517bc3ceef4c07abc428ea480afc9b.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_1abeb6039d544f7ea77253ab68ff444a = L.marker(
+            [40.802355, -73.940987],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_8038aed996f84fc49deec0eaa17df131 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1abeb6039d544f7ea77253ab68ff444a.setIcon(icon_8038aed996f84fc49deec0eaa17df131);
+            
+    
+            var popup_3b4cd0e8094a4076a8a44b39aa175375 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d3b0fd2e5d40474282b6b5e37f8902af = $(`<div id="html_d3b0fd2e5d40474282b6b5e37f8902af" style="width: 100.0%; height: 100.0%;"><strong> G & J WHOLESALE ASSOCIATES, LLC </strong></div>`)[0];
+                popup_3b4cd0e8094a4076a8a44b39aa175375.setContent(html_d3b0fd2e5d40474282b6b5e37f8902af);
+            
+
+            marker_1abeb6039d544f7ea77253ab68ff444a.bindPopup(popup_3b4cd0e8094a4076a8a44b39aa175375)
+            ;
+
+            
+        
+    
+        marker_1abeb6039d544f7ea77253ab68ff444a.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_284d15843f63472db9b9134e9664f984 = L.marker(
+            [40.802879, -73.940604],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_ed296e96821b4bd19cf9a5d08ef51730 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_284d15843f63472db9b9134e9664f984.setIcon(icon_ed296e96821b4bd19cf9a5d08ef51730);
+            
+    
+            var popup_06459fe9da504db9a777a89f92d4f7c3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cb5daf9aad924bef84e1e27ac5d3c390 = $(`<div id="html_cb5daf9aad924bef84e1e27ac5d3c390" style="width: 100.0%; height: 100.0%;"><strong>  Red Rabbit LLC 	 </strong></div>`)[0];
+                popup_06459fe9da504db9a777a89f92d4f7c3.setContent(html_cb5daf9aad924bef84e1e27ac5d3c390);
+            
+
+            marker_284d15843f63472db9b9134e9664f984.bindPopup(popup_06459fe9da504db9a777a89f92d4f7c3)
+            ;
+
+            
+        
+    
+        marker_284d15843f63472db9b9134e9664f984.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_4bb47a9d87f949de961cf84fc8958c56 = L.marker(
+            [40.812964, -73.953759],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_16a2a4a7785a499da7e56b0d12005473 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4bb47a9d87f949de961cf84fc8958c56.setIcon(icon_16a2a4a7785a499da7e56b0d12005473);
+            
+    
+            var popup_2268bcc096d541a6a59d332958ed3375 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dfaf1eab71204c34b390b92883d7ffe4 = $(`<div id="html_dfaf1eab71204c34b390b92883d7ffe4" style="width: 100.0%; height: 100.0%;"><strong>  Graham Windham Organization </strong></div>`)[0];
+                popup_2268bcc096d541a6a59d332958ed3375.setContent(html_dfaf1eab71204c34b390b92883d7ffe4);
+            
+
+            marker_4bb47a9d87f949de961cf84fc8958c56.bindPopup(popup_2268bcc096d541a6a59d332958ed3375)
+            ;
+
+            
+        
+    
+        marker_4bb47a9d87f949de961cf84fc8958c56.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_10be2c86c1a648bca60e6c9e3af308b3 = L.marker(
+            [40.725775, -73.989718],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_ed8fc854e64b41fdb872ffcd73977330 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_10be2c86c1a648bca60e6c9e3af308b3.setIcon(icon_ed8fc854e64b41fdb872ffcd73977330);
+            
+    
+            var popup_df6fa6cc93e541cc99e6b1fbc3ad243a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e3b08dccaf6b4239a142bd9f1619e38f = $(`<div id="html_e3b08dccaf6b4239a142bd9f1619e38f" style="width: 100.0%; height: 100.0%;"><strong>  REGAL HOME COLLECTIONS. </strong></div>`)[0];
+                popup_df6fa6cc93e541cc99e6b1fbc3ad243a.setContent(html_e3b08dccaf6b4239a142bd9f1619e38f);
+            
+
+            marker_10be2c86c1a648bca60e6c9e3af308b3.bindPopup(popup_df6fa6cc93e541cc99e6b1fbc3ad243a)
+            ;
+
+            
+        
+    
+        marker_10be2c86c1a648bca60e6c9e3af308b3.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_69b9655f0bf14dd2b515fe9d59146c3a = L.marker(
+            [40.814216, -73.95564],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_c74396d8cdc54909b930903c108227f0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_69b9655f0bf14dd2b515fe9d59146c3a.setIcon(icon_c74396d8cdc54909b930903c108227f0);
+            
+    
+            var popup_201e36199367476184a034a1dbc94528 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_68aa830a896048df8aa9f5718490911f = $(`<div id="html_68aa830a896048df8aa9f5718490911f" style="width: 100.0%; height: 100.0%;"><strong>  B.E.L.L. Foundation  </strong></div>`)[0];
+                popup_201e36199367476184a034a1dbc94528.setContent(html_68aa830a896048df8aa9f5718490911f);
+            
+
+            marker_69b9655f0bf14dd2b515fe9d59146c3a.bindPopup(popup_201e36199367476184a034a1dbc94528)
+            ;
+
+            
+        
+    
+        marker_69b9655f0bf14dd2b515fe9d59146c3a.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_05b53a98315941878014e0c74237f9d8 = L.marker(
+            [40.812648, -73.954391],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_9434fe04f5d5432d90e3c8c02b81bc30 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_05b53a98315941878014e0c74237f9d8.setIcon(icon_9434fe04f5d5432d90e3c8c02b81bc30);
+            
+    
+            var popup_ab5f35b50a064777bfbc224a0840a1fb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6cad5244b7664921b7e90d1df9506fd7 = $(`<div id="html_6cad5244b7664921b7e90d1df9506fd7" style="width: 100.0%; height: 100.0%;"><strong> HOME ENTERTAINMENT DESIGN, INC. </strong></div>`)[0];
+                popup_ab5f35b50a064777bfbc224a0840a1fb.setContent(html_6cad5244b7664921b7e90d1df9506fd7);
+            
+
+            marker_05b53a98315941878014e0c74237f9d8.bindPopup(popup_ab5f35b50a064777bfbc224a0840a1fb)
+            ;
+
+            
+        
+    
+        marker_05b53a98315941878014e0c74237f9d8.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_b7b12449dd4748d1b40a8d4d78e67d40 = L.marker(
+            [40.812964, -73.953759],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_1617f34a64854b3b91f3ca8499cc1c44 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b7b12449dd4748d1b40a8d4d78e67d40.setIcon(icon_1617f34a64854b3b91f3ca8499cc1c44);
+            
+    
+            var popup_db692cab718e47fd9e37abb64fa8f267 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_981eb84173ee42c483fb71236b953c66 = $(`<div id="html_981eb84173ee42c483fb71236b953c66" style="width: 100.0%; height: 100.0%;"><strong> Urban Electric Power, LLC  </strong></div>`)[0];
+                popup_db692cab718e47fd9e37abb64fa8f267.setContent(html_981eb84173ee42c483fb71236b953c66);
+            
+
+            marker_b7b12449dd4748d1b40a8d4d78e67d40.bindPopup(popup_db692cab718e47fd9e37abb64fa8f267)
+            ;
+
+            
+        
+    
+        marker_b7b12449dd4748d1b40a8d4d78e67d40.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c64d399fbbc04d1ba4eacedbe71fae07 = L.marker(
+            [40.75886, -73.984843],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_66e5c6e24b02465db5f8531de26c327a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c64d399fbbc04d1ba4eacedbe71fae07.setIcon(icon_66e5c6e24b02465db5f8531de26c327a);
+            
+    
+            var popup_845ae9ab92534ca9859f5ab40e1b4098 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1a066a1f36b042d5b55ef03a814234ad = $(`<div id="html_1a066a1f36b042d5b55ef03a814234ad" style="width: 100.0%; height: 100.0%;"><strong>  RWS & Associates Entertainment 	</strong></div>`)[0];
+                popup_845ae9ab92534ca9859f5ab40e1b4098.setContent(html_1a066a1f36b042d5b55ef03a814234ad);
+            
+
+            marker_c64d399fbbc04d1ba4eacedbe71fae07.bindPopup(popup_845ae9ab92534ca9859f5ab40e1b4098)
+            ;
+
+            
+        
+    
+        marker_c64d399fbbc04d1ba4eacedbe71fae07.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_4a666642f5a640ad8e1efdab45b86298 = L.marker(
+            [40.836017, -73.947563],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_be37b07f83554037a692234f8fb77bd1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4a666642f5a640ad8e1efdab45b86298.setIcon(icon_be37b07f83554037a692234f8fb77bd1);
+            
+    
+            var popup_dfa25083ef8747d3acf7d1a68cea3dfa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_62c15eaea57a4921909a5ae8932389d7 = $(`<div id="html_62c15eaea57a4921909a5ae8932389d7" style="width: 100.0%; height: 100.0%;"><strong> Hudson Moving & Storage Co., Inc </strong></div>`)[0];
+                popup_dfa25083ef8747d3acf7d1a68cea3dfa.setContent(html_62c15eaea57a4921909a5ae8932389d7);
+            
+
+            marker_4a666642f5a640ad8e1efdab45b86298.bindPopup(popup_dfa25083ef8747d3acf7d1a68cea3dfa)
+            ;
+
+            
+        
+    
+        marker_4a666642f5a640ad8e1efdab45b86298.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_43b1883acd7f43378a364ccce8bab963 = L.marker(
+            [40.80599, -73.955068],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_917169782e0c4cacbc5ab0d18c746ee9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_43b1883acd7f43378a364ccce8bab963.setIcon(icon_917169782e0c4cacbc5ab0d18c746ee9);
+            
+    
+            var popup_a62850e9c90349bd897037d83ebde325 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c058c60293c740c2a2317aca985c01f3 = $(`<div id="html_c058c60293c740c2a2317aca985c01f3" style="width: 100.0%; height: 100.0%;"><strong>  Office 118 Equities LLC 	  </strong></div>`)[0];
+                popup_a62850e9c90349bd897037d83ebde325.setContent(html_c058c60293c740c2a2317aca985c01f3);
+            
+
+            marker_43b1883acd7f43378a364ccce8bab963.bindPopup(popup_a62850e9c90349bd897037d83ebde325)
+            ;
+
+            
+        
+    
+        marker_43b1883acd7f43378a364ccce8bab963.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_ccb9f43ee3cc47ca815a9e5ba679c504 = L.marker(
+            [40.746364, -73.995088],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_7749bee8c1004ad093933c2641d5bf70 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ccb9f43ee3cc47ca815a9e5ba679c504.setIcon(icon_7749bee8c1004ad093933c2641d5bf70);
+            
+    
+            var popup_c0a8a9e773024d758d3db516f49b16a1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2287421353db4a09b10383c073eba30d = $(`<div id="html_2287421353db4a09b10383c073eba30d" style="width: 100.0%; height: 100.0%;"><strong>  221 WEST 26TH STREET CORP. </strong></div>`)[0];
+                popup_c0a8a9e773024d758d3db516f49b16a1.setContent(html_2287421353db4a09b10383c073eba30d);
+            
+
+            marker_ccb9f43ee3cc47ca815a9e5ba679c504.bindPopup(popup_c0a8a9e773024d758d3db516f49b16a1)
+            ;
+
+            
+        
+    
+        marker_ccb9f43ee3cc47ca815a9e5ba679c504.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5ab7d462bc324a598d878b3e87c500c5 = L.marker(
+            [40.814216, -73.95564],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_ada70a484f4a4a13ac130ba414895987 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5ab7d462bc324a598d878b3e87c500c5.setIcon(icon_ada70a484f4a4a13ac130ba414895987);
+            
+    
+            var popup_577a9a0dd4c7425f82512d5b870be19c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_01e6c58b915a45bdaa320ac5733b5292 = $(`<div id="html_01e6c58b915a45bdaa320ac5733b5292" style="width: 100.0%; height: 100.0%;"><strong>  Chromation, Inc. </strong></div>`)[0];
+                popup_577a9a0dd4c7425f82512d5b870be19c.setContent(html_01e6c58b915a45bdaa320ac5733b5292);
+            
+
+            marker_5ab7d462bc324a598d878b3e87c500c5.bindPopup(popup_577a9a0dd4c7425f82512d5b870be19c)
+            ;
+
+            
+        
+    
+        marker_5ab7d462bc324a598d878b3e87c500c5.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_098a23468de149bfab8c6f6012f436a7 = L.marker(
+            [40.812964, -73.953759],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_b811567e3aa648488789a124fb874dc6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_098a23468de149bfab8c6f6012f436a7.setIcon(icon_b811567e3aa648488789a124fb874dc6);
+            
+    
+            var popup_edf914fe618d47fd88676c1f1e3a41aa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0186fe03a4804d43a6beb5c864c8abad = $(`<div id="html_0186fe03a4804d43a6beb5c864c8abad" style="width: 100.0%; height: 100.0%;"><strong>  WHBI LLC  </strong></div>`)[0];
+                popup_edf914fe618d47fd88676c1f1e3a41aa.setContent(html_0186fe03a4804d43a6beb5c864c8abad);
+            
+
+            marker_098a23468de149bfab8c6f6012f436a7.bindPopup(popup_edf914fe618d47fd88676c1f1e3a41aa)
+            ;
+
+            
+        
+    
+        marker_098a23468de149bfab8c6f6012f436a7.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5134e8ad6979498cafd299000a5c17ad = L.marker(
+            [40.812964, -73.953759],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_3d682a5ce2b44e26a023d607bf08703b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5134e8ad6979498cafd299000a5c17ad.setIcon(icon_3d682a5ce2b44e26a023d607bf08703b);
+            
+    
+            var popup_dfeda57a1b504fee91ea76485b97bcea = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6edfbac6658d4c5eb7deae2dfb837655 = $(`<div id="html_6edfbac6658d4c5eb7deae2dfb837655" style="width: 100.0%; height: 100.0%;"><strong>  The Gluck Architectural Collaborative, P.C.   </strong></div>`)[0];
+                popup_dfeda57a1b504fee91ea76485b97bcea.setContent(html_6edfbac6658d4c5eb7deae2dfb837655);
+            
+
+            marker_5134e8ad6979498cafd299000a5c17ad.bindPopup(popup_dfeda57a1b504fee91ea76485b97bcea)
+            ;
+
+            
+        
+    
+        marker_5134e8ad6979498cafd299000a5c17ad.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_1826dcd8d8ac476eaa32cd2bda56d914 = L.marker(
+            [40.867709, -73.929902],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_7a1a765110ec4621a8769b8ec385a3af = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1826dcd8d8ac476eaa32cd2bda56d914.setIcon(icon_7a1a765110ec4621a8769b8ec385a3af);
+            
+    
+            var popup_d1e370cf2b2a4cadaadc4b2f3f17743b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_836c84c03aca46e8b73463522cd5a1b9 = $(`<div id="html_836c84c03aca46e8b73463522cd5a1b9" style="width: 100.0%; height: 100.0%;"><strong>  MAGIC NOVELTY CO., INC.	</strong></div>`)[0];
+                popup_d1e370cf2b2a4cadaadc4b2f3f17743b.setContent(html_836c84c03aca46e8b73463522cd5a1b9);
+            
+
+            marker_1826dcd8d8ac476eaa32cd2bda56d914.bindPopup(popup_d1e370cf2b2a4cadaadc4b2f3f17743b)
+            ;
+
+            
+        
+    
+        marker_1826dcd8d8ac476eaa32cd2bda56d914.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_f9d947facf52440eb8abb96bc2c79400 = L.marker(
+            [40.802929, -73.940568],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_25de058dd25e4122be97cbb549a99097 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f9d947facf52440eb8abb96bc2c79400.setIcon(icon_25de058dd25e4122be97cbb549a99097);
+            
+    
+            var popup_efa0e780548d48c499dd72195044cbf1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2dad3da65281440e9387c7864589f365 = $(`<div id="html_2dad3da65281440e9387c7864589f365" style="width: 100.0%; height: 100.0%;"><strong> FAT WITCH BAKERY, INC.  </strong></div>`)[0];
+                popup_efa0e780548d48c499dd72195044cbf1.setContent(html_2dad3da65281440e9387c7864589f365);
+            
+
+            marker_f9d947facf52440eb8abb96bc2c79400.bindPopup(popup_efa0e780548d48c499dd72195044cbf1)
+            ;
+
+            
+        
+    
+        marker_f9d947facf52440eb8abb96bc2c79400.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_a62c7b857eeb42a88edd2e40719619b8 = L.marker(
+            [40.665231, -73.9982],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_41dc06e1c6cb497eaa8bf0a3b57abf9a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a62c7b857eeb42a88edd2e40719619b8.setIcon(icon_41dc06e1c6cb497eaa8bf0a3b57abf9a);
+            
+    
+            var popup_45055d1b243c48a884b279e8b014b767 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0066b339fa6e481b9c4ccd7e3f314098 = $(`<div id="html_0066b339fa6e481b9c4ccd7e3f314098" style="width: 100.0%; height: 100.0%;"><strong>  FEDERAL EXPRESS   </strong></div>`)[0];
+                popup_45055d1b243c48a884b279e8b014b767.setContent(html_0066b339fa6e481b9c4ccd7e3f314098);
+            
+
+            marker_a62c7b857eeb42a88edd2e40719619b8.bindPopup(popup_45055d1b243c48a884b279e8b014b767)
+            ;
+
+            
+        
+    
+        marker_a62c7b857eeb42a88edd2e40719619b8.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_d381ee1d3c064f7b8d6e25d44afe082a = L.marker(
+            [40.741876, -74.004713],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_7c3cba613f82495a9f9ed95c24035f44 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d381ee1d3c064f7b8d6e25d44afe082a.setIcon(icon_7c3cba613f82495a9f9ed95c24035f44);
+            
+    
+            var popup_cdce266cc9bc408e80c3ff5b163bf6b3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_401c31be91df4b1fb236b76c4387d16c = $(`<div id="html_401c31be91df4b1fb236b76c4387d16c" style="width: 100.0%; height: 100.0%;"><strong>  HALE & HEARTY SOUPS, LLC  </strong></div>`)[0];
+                popup_cdce266cc9bc408e80c3ff5b163bf6b3.setContent(html_401c31be91df4b1fb236b76c4387d16c);
+            
+
+            marker_d381ee1d3c064f7b8d6e25d44afe082a.bindPopup(popup_cdce266cc9bc408e80c3ff5b163bf6b3)
+            ;
+
+            
+        
+    
+        marker_d381ee1d3c064f7b8d6e25d44afe082a.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_df9cfb9b322c434d805a4697e9cf4589 = L.marker(
+            [40.814216, -73.95564],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_4de7ac1b9dd94ad5aa91a6411a144db4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_df9cfb9b322c434d805a4697e9cf4589.setIcon(icon_4de7ac1b9dd94ad5aa91a6411a144db4);
+            
+    
+            var popup_bda3874f70d0427e90d1b96377a87bca = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bb9fb28372ca4af8b0951c149d09f61e = $(`<div id="html_bb9fb28372ca4af8b0951c149d09f61e" style="width: 100.0%; height: 100.0%;"><strong>  JANUS MANAGEMENT, INC. 	 </strong></div>`)[0];
+                popup_bda3874f70d0427e90d1b96377a87bca.setContent(html_bb9fb28372ca4af8b0951c149d09f61e);
+            
+
+            marker_df9cfb9b322c434d805a4697e9cf4589.bindPopup(popup_bda3874f70d0427e90d1b96377a87bca)
+            ;
+
+            
+        
+    
+        marker_df9cfb9b322c434d805a4697e9cf4589.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_695de2c613084f26ae24289d20313e38 = L.marker(
+            [40.812887, -73.953622],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_753b7092cd4b4487ba2d09ef7e13bde5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_695de2c613084f26ae24289d20313e38.setIcon(icon_753b7092cd4b4487ba2d09ef7e13bde5);
+            
+    
+            var popup_b40d0e92f0144a6eb995d3d9ed431b0b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a1cdd3010d7b472993cb5b5344301ef7 = $(`<div id="html_a1cdd3010d7b472993cb5b5344301ef7" style="width: 100.0%; height: 100.0%;"><strong>  Duce Construction Corp. </strong></div>`)[0];
+                popup_b40d0e92f0144a6eb995d3d9ed431b0b.setContent(html_a1cdd3010d7b472993cb5b5344301ef7);
+            
+
+            marker_695de2c613084f26ae24289d20313e38.bindPopup(popup_b40d0e92f0144a6eb995d3d9ed431b0b)
+            ;
+
+            
+        
+    
+        marker_695de2c613084f26ae24289d20313e38.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_e2cc2fe6436d4b25b92694916cb63506 = L.marker(
+            [40.742976, -73.988539],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_91529670d681475a984e3849e4b40bc2);
+        
+    
+
+                var icon_66758536a75e41bba14e60c767ef7b86 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e2cc2fe6436d4b25b92694916cb63506.setIcon(icon_66758536a75e41bba14e60c767ef7b86);
+            
+    
+            var popup_395074a884d64c119544b30c3392585b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1c8adad320be44dbab052a1ab3e0f6a4 = $(`<div id="html_1c8adad320be44dbab052a1ab3e0f6a4" style="width: 100.0%; height: 100.0%;"><strong>  PENTAGRAM DESIGN, INC  </strong></div>`)[0];
+                popup_395074a884d64c119544b30c3392585b.setContent(html_1c8adad320be44dbab052a1ab3e0f6a4);
+            
+
+            marker_e2cc2fe6436d4b25b92694916cb63506.bindPopup(popup_395074a884d64c119544b30c3392585b)
+            ;
+
+            
+        
+    
+        marker_e2cc2fe6436d4b25b92694916cb63506.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+</script>

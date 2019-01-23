@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_b6e8993a95d24d9181f2b8d5075c58ca {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_b6e8993a95d24d9181f2b8d5075c58ca" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_b6e8993a95d24d9181f2b8d5075c58ca = L.map(
+        'map_b6e8993a95d24d9181f2b8d5075c58ca', {
+        center: [40.745706, -73.929565],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_62803c0ceff9496e8ee715fb9df7474d = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_b6e8993a95d24d9181f2b8d5075c58ca);
+    
+        var marker_24bd78d1398f4378b2bf8f6efdf7fab1 = L.marker(
+            [40.745706, -73.929565],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_b6e8993a95d24d9181f2b8d5075c58ca);
+        
+    
+
+                var icon_453cc40cdf3143a3a606586ee7e5a3db = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_24bd78d1398f4378b2bf8f6efdf7fab1.setIcon(icon_453cc40cdf3143a3a606586ee7e5a3db);
+            
+    
+            var popup_b7c7c9795e0d42109e0be128c7711bbb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_efc1411ae27a4429880056079b7804fb = $(`<div id="html_efc1411ae27a4429880056079b7804fb" style="width: 100.0%; height: 100.0%;"><strong> 139 ACA Realty, Inc. 11245 516-797-0999 </strong></div>`)[0];
+                popup_b7c7c9795e0d42109e0be128c7711bbb.setContent(html_efc1411ae27a4429880056079b7804fb);
+            
+
+            marker_24bd78d1398f4378b2bf8f6efdf7fab1.bindPopup(popup_b7c7c9795e0d42109e0be128c7711bbb)
+            ;
+
+            
+        
+    
+        marker_24bd78d1398f4378b2bf8f6efdf7fab1.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_85a3844d34624a9995d416504f5b75be = L.marker(
+            [40.633153, -74.150999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_b6e8993a95d24d9181f2b8d5075c58ca);
+        
+    
+
+                var icon_1da59dd3ef954e18b13530f36f075c56 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_85a3844d34624a9995d416504f5b75be.setIcon(icon_1da59dd3ef954e18b13530f36f075c56);
+            
+    
+            var popup_1c8bbe41353c4ea8bc9031331ffb8526 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e8b2dfed00064eed986d0f4bce26799b = $(`<div id="html_e8b2dfed00064eed986d0f4bce26799b" style="width: 100.0%; height: 100.0%;"><strong>  141 Lake Avenue Realty c/o JR Produce, Inc. </strong></div>`)[0];
+                popup_1c8bbe41353c4ea8bc9031331ffb8526.setContent(html_e8b2dfed00064eed986d0f4bce26799b);
+            
+
+            marker_85a3844d34624a9995d416504f5b75be.bindPopup(popup_1c8bbe41353c4ea8bc9031331ffb8526)
+            ;
+
+            
+        
+    
+        marker_85a3844d34624a9995d416504f5b75be.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_9396aaf965114c3980f99da9457e0a4f = L.marker(
+            [40.785144, -73.844833],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_b6e8993a95d24d9181f2b8d5075c58ca);
+        
+    
+
+                var icon_7ad5574757f54ef58e21635690881fad = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9396aaf965114c3980f99da9457e0a4f.setIcon(icon_7ad5574757f54ef58e21635690881fad);
+            
+    
+            var popup_9459700bbfb64ea287173c33446fe31d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cff5121438e64a74bdd35c58738c91c4 = $(`<div id="html_cff5121438e64a74bdd35c58738c91c4" style="width: 100.0%; height: 100.0%;"><strong> 14-10 123rd Street LLC </strong></div>`)[0];
+                popup_9459700bbfb64ea287173c33446fe31d.setContent(html_cff5121438e64a74bdd35c58738c91c4);
+            
+
+            marker_9396aaf965114c3980f99da9457e0a4f.bindPopup(popup_9459700bbfb64ea287173c33446fe31d)
+            ;
+
+            
+        
+    
+        marker_9396aaf965114c3980f99da9457e0a4f.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_b3652e8ae4e64af8833be6e74b93c471 = L.marker(
+            [40.673106, -74.0023],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_b6e8993a95d24d9181f2b8d5075c58ca);
+        
+    
+
+                var icon_cd4df60da63a4ce799f46debb3e0de71 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b3652e8ae4e64af8833be6e74b93c471.setIcon(icon_cd4df60da63a4ce799f46debb3e0de71);
+            
+    
+            var popup_62a42c2292cd49ab9c20fbb046bc780c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_286178bb8205496b9b918d0fd227df53 = $(`<div id="html_286178bb8205496b9b918d0fd227df53" style="width: 100.0%; height: 100.0%;"><strong>  183 Lorriane Street LLC  </strong></div>`)[0];
+                popup_62a42c2292cd49ab9c20fbb046bc780c.setContent(html_286178bb8205496b9b918d0fd227df53);
+            
+
+            marker_b3652e8ae4e64af8833be6e74b93c471.bindPopup(popup_62a42c2292cd49ab9c20fbb046bc780c)
+            ;
+
+            
+        
+    
+        marker_b3652e8ae4e64af8833be6e74b93c471.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_f241e2e728274572a949a1e3fb3f4d2b = L.marker(
+            [40.742386, -73.932148],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_b6e8993a95d24d9181f2b8d5075c58ca);
+        
+    
+
+                var icon_7a28a1af156f40a99a2644fc6a228e48 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f241e2e728274572a949a1e3fb3f4d2b.setIcon(icon_7a28a1af156f40a99a2644fc6a228e48);
+            
+    
+            var popup_9d154de6b034454da8ed22bd9d3b8d14 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5e494ac72e24434ca67519580345db9c = $(`<div id="html_5e494ac72e24434ca67519580345db9c" style="width: 100.0%; height: 100.0%;"><strong>  21st Century Optics, Inc. </strong></div>`)[0];
+                popup_9d154de6b034454da8ed22bd9d3b8d14.setContent(html_5e494ac72e24434ca67519580345db9c);
+            
+
+            marker_f241e2e728274572a949a1e3fb3f4d2b.bindPopup(popup_9d154de6b034454da8ed22bd9d3b8d14)
+            ;
+
+            
+        
+    
+        marker_f241e2e728274572a949a1e3fb3f4d2b.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_d0f4c30d614542cd99824996846c850e = L.marker(
+            [40.746364, -73.995088],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_b6e8993a95d24d9181f2b8d5075c58ca);
+        
+    
+
+                var icon_4f9745ca98b24b01a6a6ae2b93aeb26b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d0f4c30d614542cd99824996846c850e.setIcon(icon_4f9745ca98b24b01a6a6ae2b93aeb26b);
+            
+    
+            var popup_bc665d51c5e244e4862d6874b1d8d552 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_42de4fa0817f4b18be8e24c05d731775 = $(`<div id="html_42de4fa0817f4b18be8e24c05d731775" style="width: 100.0%; height: 100.0%;"><strong>  221 WEST 26TH STREET CORP. </strong></div>`)[0];
+                popup_bc665d51c5e244e4862d6874b1d8d552.setContent(html_42de4fa0817f4b18be8e24c05d731775);
+            
+
+            marker_d0f4c30d614542cd99824996846c850e.bindPopup(popup_bc665d51c5e244e4862d6874b1d8d552)
+            ;
+
+            
+        
+    
+        marker_d0f4c30d614542cd99824996846c850e.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_252301db4c074d66b9d08a1b726564eb = L.marker(
+            [40.67679, -73.8893],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_b6e8993a95d24d9181f2b8d5075c58ca);
+        
+    
+
+                var icon_2a529f110ba2473694a7c5b65bde1392 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_252301db4c074d66b9d08a1b726564eb.setIcon(icon_2a529f110ba2473694a7c5b65bde1392);
+            
+    
+            var popup_62028630f684413681d9e9699bbda68b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1e333fbd178245998cc75b2e556fc412 = $(`<div id="html_1e333fbd178245998cc75b2e556fc412" style="width: 100.0%; height: 100.0%;"><strong>  2840 Atlantic Avenue Realty Corp </strong></div>`)[0];
+                popup_62028630f684413681d9e9699bbda68b.setContent(html_1e333fbd178245998cc75b2e556fc412);
+            
+
+            marker_252301db4c074d66b9d08a1b726564eb.bindPopup(popup_62028630f684413681d9e9699bbda68b)
+            ;
+
+            
+        
+    
+        marker_252301db4c074d66b9d08a1b726564eb.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_4052dc8c2b184aa3b6c7198475bb8200 = L.marker(
+            [40.74581, -73.9315],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_b6e8993a95d24d9181f2b8d5075c58ca);
+        
+    
+
+                var icon_d1531178956042148a4c203443fc395d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4052dc8c2b184aa3b6c7198475bb8200.setIcon(icon_d1531178956042148a4c203443fc395d);
+            
+    
+            var popup_baacf9caf9b54450942eb0555b40a33c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1aa341672fda4292aab7873e5affdc1d = $(`<div id="html_1aa341672fda4292aab7873e5affdc1d" style="width: 100.0%; height: 100.0%;"><strong>  33RD STREET BAKERY INC. DBA PQ SOHO  </strong></div>`)[0];
+                popup_baacf9caf9b54450942eb0555b40a33c.setContent(html_1aa341672fda4292aab7873e5affdc1d);
+            
+
+            marker_4052dc8c2b184aa3b6c7198475bb8200.bindPopup(popup_baacf9caf9b54450942eb0555b40a33c)
+            ;
+
+            
+        
+    
+        marker_4052dc8c2b184aa3b6c7198475bb8200.bindTooltip(
+            `<div>`
+            + `Click or Tap for more information` + `</div>`,
+            {"sticky": true}
+        );
+        
+</script>
